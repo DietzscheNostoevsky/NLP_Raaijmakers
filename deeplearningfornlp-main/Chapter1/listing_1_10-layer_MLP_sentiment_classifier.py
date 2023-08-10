@@ -3,10 +3,10 @@ from keras.utils import np_utils
 from keras.preprocessing.text import Tokenizer
 from keras.layers.core import Dense, Activation
 
-import pandas as pd <1>
+import pandas as pd 
 import sys
 
-data = pd.read_csv(sys.argv[1],sep='\t') <2>
+data = pd.read_csv(sys.argv[1],sep='\t') 
 docs=data["text"] <3>
 
 tokenizer = Tokenizer() <4>
