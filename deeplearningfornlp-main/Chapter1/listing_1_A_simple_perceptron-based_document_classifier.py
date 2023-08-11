@@ -27,6 +27,7 @@ test_docs = [
     "The pope is a controversial leader",
     "White blood cells fight off infections",
     "The reverend had a heart attack in church",
+    "God is dead and we killed him",
 ]
 
 X_test_counts = cv.transform(test_docs)
